@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Architecture</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="main">
+        <div class="container navbar">
+            <div class="flexitems svg">
+                <a href=""><img class="cog" src="svg/cog.svg" alt=""></a>
+                <a href=""><img class="bell" src="svg/bell.svg" alt=""></a>
+            </div>
+            <div class="select-bar">
+                <select name="type" id="type">
+                    <option value="timeline" class="item">Timeline</option>
+                    <option value="Albums" class="item">Albums</option>
+                    <option value="Events" class="item">Events</option>
+                    <option value="Favorites" class="item">Favorites</option>
+                </select>
+            </div>
+            <div class="flexitems navlinks active">
+                <a href=""><div class="item timeline active">Timeline</div></a>
+                <a href=""><div class="item albums">Albums</div></a>
+                <a href=""><div class="item events">Events</div></a>
+                <a href=""><div class="item favorites">Favorites</div></a>
+            </div>
+            <a href=""><div class="flexitems uploadbtn">
+                <img class="svg plus_circle" src="svg/plus_circle.svg" alt="">
+                <div class="btn upload">
+                    Upload photos
+                </div>
+            </div></a>
+        </div>
+
+        <div class="container titlebar">
+            <a href=""><div class="title">Library</div></a>
+            <form>
+                <div class="flexitems searchbar">
+                    <input class="search" type="search" placeholder="Search all photos">
+                    <button class="searchbtn" type="submit">
+                        <img class="svg searchicon" src="svg/search_alt.svg" alt="">
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <div class="container tagbar">
+            <div class="tag-wrapper">
+                <a class="" href=""><div class="all_photos tag">All photos</div></a>
+                <a class="active underline" href=""><div class="tag architecture">💰Architecture</div></a>
+                <a href=""><div class="tag kashmir">🗻Kashmir</div></a>
+                <a href=""><div class="tag seaside">⛵️ Seaside</div></a>
+                <a href=""><div class="tag lake_view">🐟 Lake view</div></a>
+                <a href=""><div class="tag italy">🇮🇹 Italy</div></a>
+                <a href=""><div class="tag china">🇨🇳 China</div></a>
+                <a href=""><div class="tag Argentina">🇦🇷 Argentina</div></a>
+            </div>
+            <a href=""><button class="btn category">+<span>New category</span></button></a>
+        </div>
+
+        <div class="container content today">
+            <div class="left">
+                <div class="left_title">Today</div>
+                <div class="left_date">Friday, 26 August 2022</div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img class="red" src="./svg/red_heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/avi-werde-hHz4yrvxwlA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">New_house_... .jpg</div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img src="./svg/heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/prayer-flags-0ICxgY6vdCA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">Kitchen_sansudan.jpg</div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img src="./svg/red_heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/jason-briscoe-AQl-J19ocWE-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">Bridge.jpg</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container content">
+            <div class="left">
+                <div class="left_title">This week</div>
+                <div class="left_date">21 to 25 August 2022</div>
+            </div>
+            <div class="right">
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img src="./svg/heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/pixasquare-4ojhpgKpS68-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">seg_12399.jpg</div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img src="./svg/heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/lefteris-kallergis-ewSBvLSp3Tc-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">New_house_... .jpg</div>
+                </div>
+                <div class="card">
+                    <div class="card_image">
+                        <div class="like">
+                            <img src="./svg/heart.svg" alt="">
+                        </div>
+                        <img class="image" src="./Photos/robin-wersich-Q0IrpWQIMR4-unsplash.jpg" alt="">
+                    </div>
+                    <div class="image_title">New_house_... .jpg</div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
