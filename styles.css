@@ -385,7 +385,7 @@ select {
     overflow-y: hidden;
     flex-wrap: nowrap;
     white-space: nowrap;
-    width: calc(100vw - 360px);
+    width: calc(100vw - 380px);
   }
 
   .tagbar {
@@ -410,7 +410,7 @@ select {
     display: none;
   }
   .tag-wrapper {
-    width: calc(100vw - 320px);
+    width: calc(100vw - 330px);
   }
 }
 
@@ -423,7 +423,7 @@ select {
   }
 
   .tag-wrapper {
-    width: calc(100vw - 100px);
+    width: calc(100vw - 110px);
   }
 
   .category span {
